@@ -13,6 +13,8 @@
 		7E158FD21F467AC600E44432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E158FD01F467AC600E44432 /* Main.storyboard */; };
 		7E158FD41F467AC600E44432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E158FD31F467AC600E44432 /* Assets.xcassets */; };
 		7E158FD71F467AC600E44432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E158FD51F467AC600E44432 /* LaunchScreen.storyboard */; };
+		7E158FE11F46883C00E44432 /* TLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E158FE01F46883C00E44432 /* TLMatrix.m */; };
+		7E158FE41F4688B200E44432 /* TLHeatMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E158FE31F4688B200E44432 /* TLHeatMapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		7E158FD31F467AC600E44432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E158FD61F467AC600E44432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E158FD81F467AC600E44432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E158FDF1F46883C00E44432 /* TLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMatrix.h; sourceTree = "<group>"; };
+		7E158FE01F46883C00E44432 /* TLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMatrix.m; sourceTree = "<group>"; };
+		7E158FE21F4688B200E44432 /* TLHeatMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHeatMapView.h; sourceTree = "<group>"; };
+		7E158FE31F4688B200E44432 /* TLHeatMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHeatMapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		7E158FC61F467AC600E44432 /* TLHeatMaps */ = {
 			isa = PBXGroup;
 			children = (
+				7E158FDE1F46881C00E44432 /* TLHeatMapLib */,
 				7E158FCA1F467AC600E44432 /* AppDelegate.h */,
 				7E158FCB1F467AC600E44432 /* AppDelegate.m */,
 				7E158FCD1F467AC600E44432 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				7E158FC81F467AC600E44432 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E158FDE1F46881C00E44432 /* TLHeatMapLib */ = {
+			isa = PBXGroup;
+			children = (
+				7E158FDF1F46883C00E44432 /* TLMatrix.h */,
+				7E158FE01F46883C00E44432 /* TLMatrix.m */,
+				7E158FE21F4688B200E44432 /* TLHeatMapView.h */,
+				7E158FE31F4688B200E44432 /* TLHeatMapView.m */,
+			);
+			path = TLHeatMapLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +170,8 @@
 			files = (
 				7E158FCF1F467AC600E44432 /* ViewController.m in Sources */,
 				7E158FCC1F467AC600E44432 /* AppDelegate.m in Sources */,
+				7E158FE11F46883C00E44432 /* TLMatrix.m in Sources */,
+				7E158FE41F4688B200E44432 /* TLHeatMapView.m in Sources */,
 				7E158FC91F467AC600E44432 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +333,7 @@
 				7E158FDD1F467AC600E44432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

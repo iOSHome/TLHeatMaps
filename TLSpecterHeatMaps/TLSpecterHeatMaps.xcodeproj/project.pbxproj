@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E158FF31F46C05100E44432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E158FF21F46C05100E44432 /* main.m */; };
+		7E158FF61F46C05100E44432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E158FF51F46C05100E44432 /* AppDelegate.m */; };
+		7E158FF91F46C05100E44432 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E158FF81F46C05100E44432 /* TLViewController.m */; };
+		7E158FFE1F46C05100E44432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E158FFD1F46C05100E44432 /* Assets.xcassets */; };
+		7E1590011F46C05100E44432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E158FFF1F46C05100E44432 /* LaunchScreen.storyboard */; };
+		7E15900B1F46C21F00E44432 /* SPSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15900A1F46C21F00E44432 /* SPSwizzle.m */; };
+		7E1590111F46C2B000E44432 /* UIViewController+AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15900F1F46C2B000E44432 /* UIViewController+AutomaticEvents.m */; };
+		7E15901F1F46D72400E44432 /* Specter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15901D1F46D72400E44432 /* Specter.m */; };
+		7E1590221F46D74700E44432 /* Specter+AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590211F46D74700E44432 /* Specter+AutomaticEvents.m */; };
+		7E1590251F46DB0A00E44432 /* TLTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590241F46DB0A00E44432 /* TLTestViewController.m */; };
+		7E15902B1F46E52F00E44432 /* UIView+AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15902A1F46E52F00E44432 /* UIView+AutomaticEvents.m */; };
+		7E15902E1F46E9F100E44432 /* UIWindow+AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15902D1F46E9F100E44432 /* UIWindow+AutomaticEvents.m */; };
+		7E1590321F4ABF4E00E44432 /* TLTouchZoneButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590311F4ABF4E00E44432 /* TLTouchZoneButton.m */; };
+		7E1590351F4AD05E00E44432 /* UIApplication+AutomaticEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590341F4AD05E00E44432 /* UIApplication+AutomaticEvents.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E158FEE1F46C05100E44432 /* TLSpecterHeatMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSpecterHeatMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E158FF21F46C05100E44432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E158FF41F46C05100E44432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E158FF51F46C05100E44432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E158FF71F46C05100E44432 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		7E158FF81F46C05100E44432 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
+		7E158FFD1F46C05100E44432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1590001F46C05100E44432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1590021F46C05100E44432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1590091F46C21F00E44432 /* SPSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSwizzle.h; sourceTree = "<group>"; };
+		7E15900A1F46C21F00E44432 /* SPSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSwizzle.m; sourceTree = "<group>"; };
+		7E15900E1F46C2B000E44432 /* UIViewController+AutomaticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AutomaticEvents.h"; sourceTree = "<group>"; };
+		7E15900F1F46C2B000E44432 /* UIViewController+AutomaticEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AutomaticEvents.m"; sourceTree = "<group>"; };
+		7E15901C1F46D72400E44432 /* Specter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specter.h; sourceTree = "<group>"; };
+		7E15901D1F46D72400E44432 /* Specter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Specter.m; sourceTree = "<group>"; };
+		7E15901E1F46D72400E44432 /* SpecterPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecterPrivate.h; sourceTree = "<group>"; };
+		7E1590201F46D74700E44432 /* Specter+AutomaticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Specter+AutomaticEvents.h"; sourceTree = "<group>"; };
+		7E1590211F46D74700E44432 /* Specter+AutomaticEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Specter+AutomaticEvents.m"; sourceTree = "<group>"; };
+		7E1590231F46DB0A00E44432 /* TLTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTestViewController.h; sourceTree = "<group>"; };
+		7E1590241F46DB0A00E44432 /* TLTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTestViewController.m; sourceTree = "<group>"; };
+		7E1590291F46E52F00E44432 /* UIView+AutomaticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutomaticEvents.h"; sourceTree = "<group>"; };
+		7E15902A1F46E52F00E44432 /* UIView+AutomaticEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutomaticEvents.m"; sourceTree = "<group>"; };
+		7E15902C1F46E9F100E44432 /* UIWindow+AutomaticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AutomaticEvents.h"; sourceTree = "<group>"; };
+		7E15902D1F46E9F100E44432 /* UIWindow+AutomaticEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AutomaticEvents.m"; sourceTree = "<group>"; };
+		7E1590301F4ABF4E00E44432 /* TLTouchZoneButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTouchZoneButton.h; sourceTree = "<group>"; };
+		7E1590311F4ABF4E00E44432 /* TLTouchZoneButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTouchZoneButton.m; sourceTree = "<group>"; };
+		7E1590331F4AD05E00E44432 /* UIApplication+AutomaticEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AutomaticEvents.h"; sourceTree = "<group>"; };
+		7E1590341F4AD05E00E44432 /* UIApplication+AutomaticEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AutomaticEvents.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E158FEB1F46C05100E44432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E158FE51F46C05100E44432 = {
+			isa = PBXGroup;
+			children = (
+				7E158FF01F46C05100E44432 /* TLSpecterHeatMaps */,
+				7E158FEF1F46C05100E44432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E158FEF1F46C05100E44432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E158FEE1F46C05100E44432 /* TLSpecterHeatMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E158FF01F46C05100E44432 /* TLSpecterHeatMaps */ = {
+			isa = PBXGroup;
+			children = (
+				7E15902F1F4ABF2600E44432 /* Custom */,
+				7E1590081F46C21F00E44432 /* AutomaticEvents */,
+				7E158FF41F46C05100E44432 /* AppDelegate.h */,
+				7E158FF51F46C05100E44432 /* AppDelegate.m */,
+				7E158FF71F46C05100E44432 /* TLViewController.h */,
+				7E158FF81F46C05100E44432 /* TLViewController.m */,
+				7E1590231F46DB0A00E44432 /* TLTestViewController.h */,
+				7E1590241F46DB0A00E44432 /* TLTestViewController.m */,
+				7E158FFD1F46C05100E44432 /* Assets.xcassets */,
+				7E158FFF1F46C05100E44432 /* LaunchScreen.storyboard */,
+				7E1590021F46C05100E44432 /* Info.plist */,
+				7E158FF11F46C05100E44432 /* Supporting Files */,
+			);
+			path = TLSpecterHeatMaps;
+			sourceTree = "<group>";
+		};
+		7E158FF11F46C05100E44432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E158FF21F46C05100E44432 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E1590081F46C21F00E44432 /* AutomaticEvents */ = {
+			isa = PBXGroup;
+			children = (
+				7E1590091F46C21F00E44432 /* SPSwizzle.h */,
+				7E15900A1F46C21F00E44432 /* SPSwizzle.m */,
+				7E15901C1F46D72400E44432 /* Specter.h */,
+				7E15901D1F46D72400E44432 /* Specter.m */,
+				7E15901E1F46D72400E44432 /* SpecterPrivate.h */,
+				7E1590201F46D74700E44432 /* Specter+AutomaticEvents.h */,
+				7E1590211F46D74700E44432 /* Specter+AutomaticEvents.m */,
+				7E15900E1F46C2B000E44432 /* UIViewController+AutomaticEvents.h */,
+				7E15900F1F46C2B000E44432 /* UIViewController+AutomaticEvents.m */,
+				7E1590291F46E52F00E44432 /* UIView+AutomaticEvents.h */,
+				7E15902A1F46E52F00E44432 /* UIView+AutomaticEvents.m */,
+				7E15902C1F46E9F100E44432 /* UIWindow+AutomaticEvents.h */,
+				7E15902D1F46E9F100E44432 /* UIWindow+AutomaticEvents.m */,
+				7E1590331F4AD05E00E44432 /* UIApplication+AutomaticEvents.h */,
+				7E1590341F4AD05E00E44432 /* UIApplication+AutomaticEvents.m */,
+			);
+			path = AutomaticEvents;
+			sourceTree = "<group>";
+		};
+		7E15902F1F4ABF2600E44432 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				7E1590301F4ABF4E00E44432 /* TLTouchZoneButton.h */,
+				7E1590311F4ABF4E00E44432 /* TLTouchZoneButton.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E158FED1F46C05100E44432 /* TLSpecterHeatMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1590051F46C05100E44432 /* Build configuration list for PBXNativeTarget "TLSpecterHeatMaps" */;
+			buildPhases = (
+				7E158FEA1F46C05100E44432 /* Sources */,
+				7E158FEB1F46C05100E44432 /* Frameworks */,
+				7E158FEC1F46C05100E44432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLSpecterHeatMaps;
+			productName = TLSpecterHeatMaps;
+			productReference = 7E158FEE1F46C05100E44432 /* TLSpecterHeatMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E158FE61F46C05100E44432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7E158FED1F46C05100E44432 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E158FE91F46C05100E44432 /* Build configuration list for PBXProject "TLSpecterHeatMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E158FE51F46C05100E44432;
+			productRefGroup = 7E158FEF1F46C05100E44432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E158FED1F46C05100E44432 /* TLSpecterHeatMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E158FEC1F46C05100E44432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1590011F46C05100E44432 /* LaunchScreen.storyboard in Resources */,
+				7E158FFE1F46C05100E44432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E158FEA1F46C05100E44432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E15902E1F46E9F100E44432 /* UIWindow+AutomaticEvents.m in Sources */,
+				7E1590251F46DB0A00E44432 /* TLTestViewController.m in Sources */,
+				7E158FF91F46C05100E44432 /* TLViewController.m in Sources */,
+				7E15902B1F46E52F00E44432 /* UIView+AutomaticEvents.m in Sources */,
+				7E1590321F4ABF4E00E44432 /* TLTouchZoneButton.m in Sources */,
+				7E15900B1F46C21F00E44432 /* SPSwizzle.m in Sources */,
+				7E15901F1F46D72400E44432 /* Specter.m in Sources */,
+				7E1590351F4AD05E00E44432 /* UIApplication+AutomaticEvents.m in Sources */,
+				7E1590111F46C2B000E44432 /* UIViewController+AutomaticEvents.m in Sources */,
+				7E1590221F46D74700E44432 /* Specter+AutomaticEvents.m in Sources */,
+				7E158FF61F46C05100E44432 /* AppDelegate.m in Sources */,
+				7E158FF31F46C05100E44432 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E158FFF1F46C05100E44432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1590001F46C05100E44432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1590031F46C05100E44432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E1590041F46C05100E44432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1590061F46C05100E44432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLSpecterHeatMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.TLSpecterHeatMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E1590071F46C05100E44432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLSpecterHeatMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.TLSpecterHeatMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E158FE91F46C05100E44432 /* Build configuration list for PBXProject "TLSpecterHeatMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1590031F46C05100E44432 /* Debug */,
+				7E1590041F46C05100E44432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1590051F46C05100E44432 /* Build configuration list for PBXNativeTarget "TLSpecterHeatMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1590061F46C05100E44432 /* Debug */,
+				7E1590071F46C05100E44432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E158FE61F46C05100E44432 /* Project object */;
+}

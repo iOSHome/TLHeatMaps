@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) TLMatrix *colorMatrix;
 @property (nonatomic, strong) TLMatrix *densityMatrix;
+
 @end
 
 @implementation TLHeatMapView

@@ -13,7 +13,7 @@
 		7E1590521F4BCD7F00E44432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1590501F4BCD7F00E44432 /* LaunchScreen.storyboard */; };
 		7E15905B1F4BCEF800E44432 /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15905A1F4BCEF800E44432 /* TLTableViewController.m */; };
 		7E15905F1F4BDE2300E44432 /* TLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15905E1F4BDE2300E44432 /* TLRootViewController.m */; };
-		7E1590621F4C0AEA00E44432 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590611F4C0AEA00E44432 /* TLCollectionViewController.m */; };
+		7E1590651F4D548B00E44432 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1590641F4D548B00E44432 /* TLCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		7E15905A1F4BCEF800E44432 /* TLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewController.m; sourceTree = "<group>"; };
 		7E15905D1F4BDE2300E44432 /* TLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLRootViewController.h; sourceTree = "<group>"; };
 		7E15905E1F4BDE2300E44432 /* TLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLRootViewController.m; sourceTree = "<group>"; };
-		7E1590601F4C0AEA00E44432 /* TLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLCollectionViewController.h; path = ../TLCollectionViewController.h; sourceTree = "<group>"; };
-		7E1590611F4C0AEA00E44432 /* TLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLCollectionViewController.m; path = ../TLCollectionViewController.m; sourceTree = "<group>"; };
+		7E1590631F4D548B00E44432 /* TLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewController.h; sourceTree = "<group>"; };
+		7E1590641F4D548B00E44432 /* TLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				7E15905E1F4BDE2300E44432 /* TLRootViewController.m */,
 				7E1590591F4BCEF800E44432 /* TLTableViewController.h */,
 				7E15905A1F4BCEF800E44432 /* TLTableViewController.m */,
-				7E1590601F4C0AEA00E44432 /* TLCollectionViewController.h */,
-				7E1590611F4C0AEA00E44432 /* TLCollectionViewController.m */,
+				7E1590631F4D548B00E44432 /* TLCollectionViewController.h */,
+				7E1590641F4D548B00E44432 /* TLCollectionViewController.m */,
 				7E15904E1F4BCD7F00E44432 /* Assets.xcassets */,
 				7E1590501F4BCD7F00E44432 /* LaunchScreen.storyboard */,
 				7E1590531F4BCD7F00E44432 /* Info.plist */,
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E15905F1F4BDE2300E44432 /* TLRootViewController.m in Sources */,
-				7E1590621F4C0AEA00E44432 /* TLCollectionViewController.m in Sources */,
+				7E1590651F4D548B00E44432 /* TLCollectionViewController.m in Sources */,
 				7E15905B1F4BCEF800E44432 /* TLTableViewController.m in Sources */,
 				7E1590471F4BCD7F00E44432 /* AppDelegate.m in Sources */,
 				7E1590441F4BCD7F00E44432 /* main.m in Sources */,
